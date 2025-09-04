@@ -13,4 +13,12 @@ A simple Python script that can:
 
 ## 🚀 How to Use (Step by Step)
 
+```bash
+git clone https://github.com/catherinerafael/SpotifyPlaylistDownloader.git
+```
 
+## 
+
+```bash
+pip install requests mutagen yt-dlp tkinter
+```
