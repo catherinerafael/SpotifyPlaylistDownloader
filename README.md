@@ -22,3 +22,9 @@ git clone https://github.com/catherinerafael/SpotifyPlaylistDownloader.git
 ```bash
 pip install requests mutagen yt-dlp tkinter
 ```
+
+## 
+
+```bash
+python main.py
+```
