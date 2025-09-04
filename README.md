@@ -28,3 +28,21 @@ pip install requests mutagen yt-dlp tkinter
 ```bash
 python main.py
 ```
+
+## 📝 Notes: Spotify Client ID & Client Secret
+
+This script **requires a Spotify Client ID and Client Secret** to access the Spotify Web API.  
+Without them, the script cannot fetch playlist and track metadata.
+
+### 🔑 How to get your Client ID and Secret
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).  
+2. Log in with your Spotify account.  
+3. Click **"Create an App"**.  
+4. Fill in the App Name and Description (anything you like).  
+5. Once the app is created, you will see **Client ID** on the app page.  
+6. Click **Show Client Secret** to reveal your secret key.  
+7. Copy both values and paste them into your `main.py` file:
+
+   ```python
+   CLIENT_ID = "your_client_id"
+   CLIENT_SECRET = "your_client_secret"
